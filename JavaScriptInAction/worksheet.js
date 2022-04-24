@@ -3,9 +3,9 @@ console.log(dayOfWeek);
 
 dayOfWeek = 'Friday'
 console.log(`I cant wait for ${dayOfWeek}!`)
-// animalInput = prompt("What is your favorite animal?")
-// colorInput = prompt("What is your favorite color?")
-// console.log(`Ive never seen a ${colorInput} ${animalInput} before!`)
+animalInput = prompt("What is your favorite animal?")
+colorInput = prompt("What is your favorite color?")
+console.log(`Ive never seen a ${colorInput} ${animalInput} before!`)
 // Favorite Breakfast: Egg Burrito
 // Favorie Lunch: Meal Shake
 // Favorite Dinner: Ribeye Steak
@@ -59,14 +59,14 @@ function inputFavoriteBand(){
     let userInput = prompt('What is your favorite band?')
     return userInput
 }
-// let favoriteBand = inputFavoriteBand()
-// console.log(favoriteBand)
+let favoriteBand = inputFavoriteBand()
+console.log(favoriteBand)
 
 function concertDisplay(musicalAct){
     let myStreet = prompt('What street do you live on?')
     console.log(`It would be great if ${musicalAct} played on ${myStreet}!`)
 }
-// concertDisplay(favoriteBand)
+concertDisplay(favoriteBand)
 
 let desktopItems = ['iPad', 'Macbook', 'iPhone']
 console.log(desktopItems[1])
